@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <title>SIH-Cyclone</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/animate.css'%}">
+    
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/aos.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/ionicons.min.css'%}">
+    
+    <link rel="stylesheet" href="{% static 'css/flaticon.css'%}">
+    <link rel="stylesheet" href="{% static 'css/icomoon.css'%}">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+  </head>
+  <body>
+	  <div class="bg-top navbar-light">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-center align-items-stretch">
+    			<div class="col-md-4 d-flex align-items-center py-4">
+    				<a class="navbar-brand" href="index.html">Cyclone<span>intensity Estimation</span></a>
+    			</div>
+	    		<div class="col-lg-8 d-block">
+		    		<div class="row d-flex">
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+					    	<div class="text">
+					    		<span>Email</span>
+						    	<span>manav.rupani@somaiya.edu</span>
+						    </div>
+					    </div>
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+						    <div class="text">
+						    	<span>Call</span>
+						    	<span>Call Us: +91 8104179620</span>
+						    </div>
+					    </div>
+					    
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center px-4">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="nav-item"><a href="index" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item active"><a href="about" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="forecast" class="nav-link">Cyclone</a></li>
+	        	
+	          <li class="nav-item"><a href="contact" class="nav-link">Feedback</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({% static 'images/cyclone4.jpeg'%});">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">About Us</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About us <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section ftco-no-pt ftc-no-pb">
+			<div class="container"> 
+				<div class="row d-flex">
+					<div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
+						<div class="img" style="background-image: url({% static 'images/cyclone7.jpg'%}); border"></div>
+					</div>
+					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
+          	<h2 class="mb-4">Anatomy of a cyclone</h2>
+						<p>Tropical cyclones are compact, circular storms, generally some 320 km (200 miles) in diameter, whose winds swirl around a central region of low atmospheric pressure. The winds are driven by this low-pressure core and by the rotation of Earth, which deflects the path of the wind through a phenomenon known as the Coriolis force. As a result, tropical cyclones rotate in a counterclockwise (or cyclonic) direction in the Northern Hemisphere and in a clockwise (or anticyclonic) direction in the Southern Hemisphere</p>
+						<p>The wind field of a tropical cyclone may be divided into three regions. First is a ring-shaped outer region, typically having an outer radius of about 160 km (100 miles) and an inner radius of about 30 to 50 km (20 to 30 miles). In this region the winds increase uniformly in speed toward the centre. Wind speeds attain their maximum value at the second region, the eyewall, which is typically 15 to 30 km (10 to 20 miles) from the centre of the storm. The eyewall in turn surrounds the interior region, called the eye, where wind speeds decrease rapidly and the air is often calm..</p>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+    <section class="ftco-section ftco-no-pt ftc-no-pb">
+			<div class="container marginboth">
+      
+        <h2>Intensity Scales </h2><h3>(1 Knot = 1.85 km/hr)</h3>
+				<table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Type of Disturbances</th>
+              <th scope="col">Wind Speed in Km/hrs</th>
+              <th scope="col">Wind Speed in Knots</th>
+             
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Low Pressure</td>
+              <td>Less than 31</td>
+              <td>Less than 17</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Depression</td>
+              <td>31-49</td>
+              <td>17-27</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Deep Depression</td>
+              <td>49-61</td>
+              <td>27-33</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Cyclonic Storm</td>
+              <td>61-88</td>
+              <td>33-47</td>
+            </tr>
+			<tr>
+				<th scope="row">5</th>
+				<td>Severe Cyclonic Storm</td>
+				<td>88-117</td>
+				<td>47-63</td>
+			  </tr>
+			<tr>
+				<th scope="row">6</th>
+				<td>Super Cyclone</td>
+				<td>More than 221</td>
+				<td>More than 120</td>
+			</tr>
+          </tbody>
+        </table>
+        
+			</div>
+		</section>
+		
+
+		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({% static 'images/cyclone4.jpeg'%});" data-stellar-background-ratio="0.5">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-2 d-flex">
+    			<div class="col-md-6 align-items-stretch d-flex">
+    				<div class="img img-video d-flex align-items-center" style="background-image: url({% static 'images/cyclone5.jpg'%});">
+    					<div class="video justify-content-center">
+								<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+									<span class="ion-ios-play"></span>
+		  					</a>
+							</div>
+    				</div>
+    			</div>
+          <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
+            <h2 class="mb-4">Cyclone Detection</h2>
+            <p>Early detection of tropical cyclones has wide socio-economic implications. So far, remote sensing techniques have detected them the earliest. However, this detection was possible only after the system developed as a well-marked low-pressure system over the warm ocean surface. A larger time gap between the detection and the impact of the cyclone could help preparation activities.
+            </p>
+            <p>Prior to the formation of a cyclonic system over the warm oceanic environment, the initial atmospheric instability mechanism, as well as the vortex development, is triggered at higher atmospheric levels. These cyclonic eddies are prominent features in the vertical atmospheric column encompassing the disturbance environment with a potential to induce and develop into a well-marked cyclonic depression over the warm ocean surface. They could be used for detection of prediction of cyclones.</p>
+          </div>
+        </div>	
+    		<div class="row d-md-flex align-items-center justify-content-center">
+    			<div class="col-lg-12">
+    				<div class="row d-md-flex align-items-center">
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <strong class="number" data-number="120">0</strong>
+		                <span>Cyclone detected</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <strong class="number" data-number="110">0</strong>
+		                <span>Cyclones Predicted</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <strong class="number" data-number="10">0</strong>
+		                <span>False Prediction</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <strong class="number" data-number="50">0</strong>
+		                <span>Hours worked</span>
+		              </div>
+		            </div>
+		          </div>
+	          </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+
+
+		<section class="ftco-gallery">
+    	<div class="container-wrap">
+    		<div class="row no-gutters">
+					<div class="col-md-3 ftco-animate">
+						<a href="images/aftereffects6.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'images/aftereffects6.jpg'%});">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/aftereffects1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'images/aftereffects1.jpg'%});">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/aftereffects2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'images/aftereffects2.jpg'%});">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/aftereffects5.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'images/aftereffects5.jpg'%});">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+		
+    
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Have Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">K. J. Somaiya College of Engineering, Vidya Vihar East, Mumbai, Maharashtra 400077 </span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 8104179602</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">manav.rupani@somaiya.edu</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+              <h2 class="ftco-heading-2">Journey Begins</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url({% static 'images/image_1.jpg'%});"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">SIH 2022</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> March 22, 2022</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
+            	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made by Code Crew</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{% static 'js/jquery.min.js'%}"></script>
+  <script src="{% static 'js/jquery-migrate-3.0.1.min.js'%}"></script>
+  <script src="{% static 'js/popper.min.js'%}"></script>
+  <script src="{% static 'js/bootstrap.min.js'%}"></script>
+  <script src="{% static 'js/jquery.easing.1.3.js'%}"></script>
+  <script src="{% static 'js/jquery.waypoints.min.js'%}"></script>
+  <script src="{% static 'js/jquery.stellar.min.js'%}"></script>
+  <script src="{% static 'js/owl.carousel.min.js'%}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js'%}"></script>
+  <script src="{% static 'js/aos.js'%}"></script>
+  <script src="{% static 'js/jquery.animateNumber.min.js'%}"></script>
+  <script src="{% static 'js/scrollax.min.js'%}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{% static 'js/google-map.js'%}"></script>
+  <script src="{% static 'js/main.js'%}"></script>
+    
+  </body>
+</html>
